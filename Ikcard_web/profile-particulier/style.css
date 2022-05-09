@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+body {
+	background: #f5f5f5;
+	font-family: "Roboto", sans-serif;
+}
+
+.shadow {
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06) !important;
+}
+
+.main-content {
+	padding-top: 0px;
+	padding-bottom: 100px;
+}
+
+.banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 250px;
+	background-image: url("../img/black-banner.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.img-circle {
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+	border: 3px solid #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+
+.social-links a {
+	transition: all 0.2s;
+}
+.social-links a img {
+	height: 30px;
+}
+.social-links a:hover {
+	transform: translateY(-3px);
+}
+.profile-card {
+	position: absolute;
+}
+.debut {
+	position: relative;
+	padding-top: 80px;
+}
+
+.logo {
+position: relative;
+top: 0px;
+}
+
+.telephone {
+background-color: #d0c06b;
+height: 55px;
+border-radius: 5px;
+}
+
+.info_personelle {
+position: relative;
+top: 20px;
+}
+.info_personelle div {
+background-color: #d0c06b;
+height: 55px;
+border-radius: 5px;
+margin: 25px;
+padding: 2px;
+}
+
+.social-links {
+	position: relative;
+	top: 25px;
+}
+
+.buttons {
+position: relative;
+top: 20px;
+}
+
+.btn-primary {
+	background-color:  #d0c06b;
+	border-color: #d0c06b;
+	border-radius: 20px;
+	color: black;
+}
+
+.btn-enregistrer {
+background-color: #d0c06b;
+border-color: #d0c06b;
+border-radius: 20px;
+color: black;
+margin-top: 50px;
+width: 200px;
+height: 40px;
+
+}
+
+.download {
+
+	border-radius: 20px;
+	color: black;
+
+}
+
+.media-sociaux {
+position: relative;
+top: 10px;
+color: rgb(153, 147, 147);
+}
+
+.info_personelle h5 {
+	font-size: 18px;
+}
+
+.btn-enregistrer:hover {
+	color: #fff;
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
